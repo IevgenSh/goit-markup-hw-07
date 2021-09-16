@@ -7,6 +7,9 @@
 .clients-item {
   width: 170px;
   height: 92px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients-link {
@@ -19,22 +22,18 @@
   border-radius: 4px;
 
   transition: border-color 250ms var(--timing-function);
-}
-
-.clients-link:hover,
-.clients-link:focus,
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
-  fill: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.clients-item:not(:last-child) {
-  margin-right: 30px;
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
 }
 
 .clients-icon {
   fill: var(--icon-color);
 
   transition: fill 250ms var(--timing-function);
+  .clients-link:hover &,
+  .clients-link:focus & {
+    fill: var(--accent-color);
+  }
 }
