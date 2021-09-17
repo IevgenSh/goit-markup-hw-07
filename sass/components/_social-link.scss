@@ -36,3 +36,20 @@
     fill: var(--primery-white-color);
   }
 }
+
+.footer-center__socials-link {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+
+  transition: background-color 250ms var(--timing-function);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
+}
+
+.footer-center__social-icon {
+  fill: var(--primery-white-color);
+}

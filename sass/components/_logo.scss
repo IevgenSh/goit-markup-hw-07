@@ -18,6 +18,13 @@
   line-height: 1.19;
 }
 
+.footer__logo {
+  display: block;
+  margin-right: 0;
+  margin-bottom: 20px;
+  color: var(--primery-white-color);
+}
+
 .logo-name {
   color: var(--accent-color);
 }
