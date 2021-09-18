@@ -8,6 +8,18 @@
   --header-bg-color: #2f303a;
   --icon-color: #afb1b8;
   --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  --primery-font-size: 14px;
+  --button-font-size: 16px;
+  --logo-font-size: 26px;
+  --title-font-size: 36px;
+  --modal-font-size: 12px;
+  --primery-line-height: 1.71;
+  --secondary-line-height: 1.14;
+  --button-line-height: 1.88;
+  --logo-line-height: 1.19;
+  --modal-line-height: 1.17;
+  --normal-font-weight: 400;
+  --bold-font-weight: 700;
 }
 
 body {
@@ -83,8 +95,8 @@ ul {
   padding-bottom: 32px;
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: var(--primery-font-size);
+  line-height: var(--secondary-line-height);
   letter-spacing: 0.02em;
   transition: color 250ms var(--timing-function);
 }
@@ -124,8 +136,8 @@ ul {
   align-items: center;
   color: var(--primery-text-color);
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: var(--primery-font-size);
+  line-height: var(--secondary-line-height);
   letter-spacing: 0.02em;
   transition: color 250ms var(--timing-function);
 }
@@ -142,18 +154,13 @@ ul {
 .logo {
   color: #000000;
   font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-weight: var(--bold-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: var(--logo-line-height);
 }
 
 .header__logo {
   margin-right: 93px;
-  color: #000000;
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .footer__logo {
@@ -212,9 +219,9 @@ ul {
   color: var(--primery-white-color);
   font-family: inherit;
   cursor: pointer;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
+  font-weight: var(--bold-font-weight);
+  font-size: var(--button-font-size);
+  line-height: var(--button-line-height);
   letter-spacing: 0.06em;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -238,9 +245,9 @@ ul {
   margin-top: 0;
   margin-bottom: 50px;
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  font-weight: var(--bold-font-weight);
+  font-size: var(--title-font-size);
+  line-height: var(--modal-line-height);
   text-align: center;
 }
 
@@ -252,9 +259,9 @@ ul {
   margin-top: 0;
   margin-bottom: 10px;
   color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: var(--bold-font-weight);
+  font-size: var(--primery-font-size);
+  line-height: var(--secondary-line-height);
   text-transform: uppercase;
 }
 
@@ -272,8 +279,8 @@ ul {
 .features-block__text {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: var(--primery-font-size);
+  line-height: var(--primery-line-height);
 }
 
 .features-block__text :not(:last-child) {
@@ -308,9 +315,9 @@ ul {
   height: 70px;
   margin: 0;
   background-color: rgba(47, 48, 58, 0.8);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: var(--bold-font-weight);
+  font-size: var(--primery-font-size);
+  line-height: var(--secondary-line-height);
   text-transform: uppercase;
   color: var(--primery-white-color);
 }
@@ -345,16 +352,16 @@ ul {
   margin-bottom: 10px;
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: var(--button-font-size);
+  line-height: var(--logo-line-height);
   text-align: center;
 }
 
 .team-list__text {
   margin-top: 0;
   margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 1.19;
+  font-size: var(--button-font-size);
+  line-height: var(--logo-line-height);
   text-align: center;
 }
 
@@ -483,8 +490,8 @@ ul {
   margin-bottom: 20px;
   width: 145px;
   height: 16px;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: var(--primery-font-size);
+  line-height: var(--secondary-line-height);
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primery-white-color);
@@ -507,9 +514,9 @@ ul {
 .footer-right__title {
   margin-top: 0;
   margin-bottom: 20px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  font-weight: var(--bold-font-weight);
+  font-size: var(--primery-font-size);
+  line-height: var(--secondary-line-height);
   text-transform: uppercase;
   color: var(--primery-white-color);
 }
@@ -542,8 +549,8 @@ ul {
 .adress {
   color: var(--primery-white-color);
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: var(--primery-font-size);
+  line-height: var(--primery-line-height);
   height: 81px;
 }
 
@@ -622,7 +629,7 @@ ul {
   padding-top: 40px;
   padding-left: 45px;
   padding-right: 42px;
-  font-weight: 700;
+  font-weight: var(--bold-font-weight);
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -645,9 +652,9 @@ ul {
 }
 
 .modal__form-label {
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
+  font-weight: var(--normal-font-weight);
+  font-size: var(--modal-font-size);
+  line-height: var(--modal-line-height);
   letter-spacing: 0.01em;
   color: #757575;
 }
@@ -755,9 +762,9 @@ textarea::placeholder {
 }
 
 .modal__checkbox-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-weight: var(--normal-font-weight);
+  font-size: var(--primery-font-size);
+  line-height: var(--primery-line-height);
   letter-spacing: 0.03em;
   color: #757575;
 }
@@ -796,7 +803,7 @@ textarea::placeholder {
   border-radius: 4px;
   transition: background-color 250ms var(--timing-function), color 250ms var(--timing-function), box-shadow 250ms var(--timing-function);
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--button-font-size);
   line-height: 1.62;
   text-align: center;
 }
@@ -834,7 +841,7 @@ textarea::placeholder {
   margin-top: 0;
   margin-bottom: 0;
   color: var(--primery-text-color);
-  font-size: 16px;
+  font-size: var(--button-font-size);
   line-height: 1.87;
 }
 

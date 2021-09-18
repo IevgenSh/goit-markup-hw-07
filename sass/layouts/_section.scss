@@ -9,8 +9,8 @@
 
   color: var(--title-text-color);
 
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  font-weight: var(--bold-font-weight);
+  font-size: var(--title-font-size);
+  line-height: var(--modal-line-height);
   text-align: center;
 }

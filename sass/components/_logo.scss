@@ -2,20 +2,13 @@
   color: #000000;
 
   font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  font-weight: var(--bold-font-weight);
+  font-size: var(--logo-font-size);
+  line-height: var(--logo-line-height);
 }
 
 .header__logo {
   margin-right: 93px;
-
-  color: #000000;
-
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .footer__logo {
